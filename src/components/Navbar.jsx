@@ -6,7 +6,7 @@ import { formatoNumero } from '../utils/convertir';
 const Navbar = () => {
     const total = 25000;
     const token = false;
-    
+
     return (
         <nav className="navbar navbar-expand-lg navbar-dark text-white bg-dark">
         <div className="container">
@@ -17,21 +17,21 @@ const Navbar = () => {
         </button>Mamma Mia
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="navbar-nav ms-auto ps-2">
-            <a className="nav-item nav-link active" href="#">Home</a>
+            <a className="nav-item nav-link active" href=" ">Home</a>
                 {
                     token ? (
                         <>
-                        <a className="nav-item nav-link" href="#">Profile</a>
-                        <a className="nav-item nav-link" href="#">Log out</a>
+                        <a className="nav-item nav-link" href=" ">Profile</a>
+                        <a className="nav-item nav-link" href=" ">Log out</a>
                         </>
                     ) : (
                         <>
-                        <a className="nav-item nav-link" href="#">Login</a>
-                        <a className="nav-item nav-link" href="#">Register</a>
+                        <a className="nav-item nav-link" href=" ">Login</a>
+                        <a className="nav-item nav-link" href="">Register</a>
                         </>
                     )
                 }
-                    <a className="nav-item nav-link disabled" href="#"  aria-disabled="true">
+                    <a className="nav-item nav-link disabled" href=""  aria-disabled="true">
                         <div>Total: ${formatoNumero(total)}</div>
                     </a>
             </div>
