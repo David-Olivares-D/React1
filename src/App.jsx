@@ -1,11 +1,12 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
 // import Register from './components/Register';
 // import Login from './components/Login';
 import { useState } from 'react';
-import Cart from './components/Cart';
+// import Cart from './components/Cart';
 
 function App() {
   // const [user, setUser] = useState(null);
@@ -13,7 +14,7 @@ function App() {
   // const handleRegister = (userData) => {
   //   setUser(userData);
   // };
- 
+
   return (
     <>
       <Navbar />
@@ -23,7 +24,7 @@ function App() {
       ) : (
         <Login user={user} />
       )} */}
-      <Cart/>
+      {/* <Cart/> */}
       <Footer />
     </>
   );
