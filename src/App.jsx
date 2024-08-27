@@ -1,11 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+// import Home from './components/Home';
 import Footer from './components/Footer';
 // import Register from './components/Register';
 // import Login from './components/Login';
 import { useState } from 'react';
+import Pizza from './components/Pizza';
 // import Cart from './components/Cart';
 
 function App() {
@@ -18,13 +19,14 @@ function App() {
   return (
     <>
       <Navbar />
-      <Home />
+      {/* <Home /> */}
       {/* {!user ? (
         <Register registro={handleRegister} />
       ) : (
         <Login user={user} />
       )} */}
       {/* <Cart/> */}
+      <Pizza/>
       <Footer />
     </>
   );
