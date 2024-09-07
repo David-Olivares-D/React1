@@ -1,4 +1,4 @@
-import Header from './Header';
+import Header from '../components/Header';
 // import CardPizza from './CardPizza';
 // import arrayPizzas from '../utils/pizzas';
 import React, { useEffect, useState } from 'react';
